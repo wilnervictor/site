@@ -390,6 +390,10 @@ footer div {
   #james {
     width: 350px;
   }
+  .artigo7 > div{
+    margin-right: 20px;
+  }
+  
 }
 @media (max-width: 1245px) {
   #b1,
