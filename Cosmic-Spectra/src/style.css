@@ -326,6 +326,13 @@ footer div {
   font-size: 1.2em;
   text-align: center;
 }
+#pilares a,
+#via a,
+#orion a{
+  text-decoration: none;
+  color: white;
+  
+}
 #pilares:hover h3,
 #via:hover h3,
 #orion:hover h3{
@@ -379,7 +386,7 @@ footer div {
     margin-bottom: 15px;
   }
   .social-media a {
-    padding: 5px;
+    padding: 3px;
   }
   #marte {
     width: 300px;
@@ -391,7 +398,7 @@ footer div {
     width: 350px;
   }
   .artigo7 > div{
-    margin-right: 20px;
+    margin-left: 50px;
   }
   
 }
@@ -430,3 +437,15 @@ footer div {
     margin: 10px 30px;
   }
 }
+@media (max-width: 952px) {
+  .artigo7 > div{
+    margin-left: 27px;
+  }
+}
+@media (max-width: 430px) {
+  .artigo7 > div{
+    margin-left: 40px;
+  }
+}
+
+
