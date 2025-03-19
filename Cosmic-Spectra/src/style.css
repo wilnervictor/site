@@ -356,7 +356,7 @@ footer div {
   box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.336);
 }
 .hero2 {
-  background-image: url(imagem/Pilares\ da\ criasao1300.jpeg);
+  background-image: url(imagem/universo1400px.jpg);
   background-size: cover;
   background-position: center;
   height: 300px;
@@ -374,6 +374,11 @@ footer div {
 .artigo_pilares h2{
   margin-top: 15px;
   margin-bottom: 10px;
+}
+.artigo_pilares h3{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-weight: 500;
 }
 @media (max-width: 700px) {
   nav > a {
@@ -472,7 +477,7 @@ footer div {
 @media (max-width: 700px) {
   .hero2 {
     font-size: 1.5em;
-    background-image: url(imagem/Pilares\ da\ criasao600px.jpeg);
+    background-image: url(imagem/universo800px.jpg);
   }
 }
 
