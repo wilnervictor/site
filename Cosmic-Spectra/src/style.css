@@ -353,6 +353,27 @@ footer div {
 #orion:hover,
 #ngc:hover {
   transform: scale(1.1);
+  box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.336);
+}
+.hero2 {
+  background-image: url(imagem/Pilares\ da\ criasao1300.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: var(--fonte-destaque);
+  font-size: 2em;
+}
+.artigo_pilares h1{
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.artigo_pilares h2{
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 @media (max-width: 700px) {
   nav > a {
@@ -376,6 +397,7 @@ footer div {
     font-size: 1.5em;
     background-image: url(imagem/mmimg1280.jpg);
   }
+  
   #b1,
   #b2,
   #b3,
@@ -445,6 +467,12 @@ footer div {
 @media (max-width: 430px) {
   .artigo7 > div{
     margin-left: 40px;
+  }
+}
+@media (max-width: 700px) {
+  .hero2 {
+    font-size: 1.5em;
+    background-image: url(imagem/Pilares\ da\ criasao600px.jpeg);
   }
 }
 
