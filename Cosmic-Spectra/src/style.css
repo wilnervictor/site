@@ -68,7 +68,7 @@ h1 {
 h2 {
   font-family: var(--fonte-secudaria);
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
@@ -373,6 +373,7 @@ footer div {
 .artigo_pilares h2{
   margin-top: 15px;
   margin-bottom: 10px;
+
 }
 .artigo_pilares h3{
   margin-top: 15px;
@@ -487,6 +488,88 @@ footer div {
     font-size: 1.5em;
     background-image: url(imagem/pilares900.jpg);
   }
+  .hero3 {
+    font-size: 1.2em;
+    background-image: url(imagem/via900.jpg);
+  }
 }
-
-
+.hero3 {
+  background-image: url(imagem/via1600.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: var(--fonte-destaque);
+  font-size: 2em;
+}
+@media (max-width: 700px) {
+  .hero3 {
+    font-size: 1.5em;
+    background-image: url(imagem/via900.jpg);
+  }
+}
+.artigo_vialactea h1{
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.artigo_vialactea h2{
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.artigo_vialactea h3{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.artigo_vialactea h4{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.artigo_vialactea ul{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.artigo_vialactea li{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.artigo_vialactea img{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  transition: 0.5s;
+}
+.artigo_vialactea img:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.336);
+}
+@media (max-width: 700px) {
+  .artigo_vialactea img{
+    margin-left: 10px;
+  }
+}
+.hero4 {
+  background-image: url(imagem/NGC1880.jpg);
+  background-size: cover;
+  background-position: center;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: var(--fonte-destaque);
+  font-size: 2em;
+}
+@media (max-width: 700px) {
+  .artigo_vialactea img{
+    margin-left: 5px;
+    width: 300px;
+  }
+}
