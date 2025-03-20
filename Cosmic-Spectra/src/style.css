@@ -53,8 +53,7 @@ nav {
 }
 .aa1:hover,
 .aa2:hover,
-.aa3:hover,
-.aa5:hover {
+.aa3:hover {
   color: #c9c7c7;
 }
 nav > img {
@@ -356,7 +355,7 @@ footer div {
   box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.336);
 }
 .hero2 {
-  background-image: url(imagem/universo1400px.jpg);
+  background-image: url(imagem/pilares1880.jpg);
   background-size: cover;
   background-position: center;
   height: 300px;
@@ -379,6 +378,15 @@ footer div {
   margin-top: 15px;
   margin-bottom: 10px;
   font-weight: 500;
+}
+.artigo_pilares img{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  transition: 0.5s;
+}
+.artigo_pilares img:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.336);
 }
 @media (max-width: 700px) {
   nav > a {
@@ -477,7 +485,7 @@ footer div {
 @media (max-width: 700px) {
   .hero2 {
     font-size: 1.5em;
-    background-image: url(imagem/universo800px.jpg);
+    background-image: url(imagem/pilares900.jpg);
   }
 }
 
