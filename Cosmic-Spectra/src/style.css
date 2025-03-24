@@ -296,11 +296,12 @@ footer div {
   text-decoration: none;
   font-size: 0.7em;
 }
-#pnasa {
-  margin-top: 20px;
-}
+
 .artigo7 {
   text-align: center;
+}
+.artigo7 > h2 {
+  margin-bottom: 15px;
 }
 .artigo7 > div {
   margin-top: 40px;
@@ -388,6 +389,53 @@ footer div {
 .artigo_pilares img:hover{
   transform: scale(1.1);
   box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.336);
+}
+.artigo_termos{
+  margin: 5px;
+}
+.artigo_termos h1{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.artigo_termos h2{
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.artigo_termos h3{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.artigo_termos li{
+  font-family: var(--fonte-padrao);
+
+}
+.artigo_termos a{
+  text-decoration: none;
+}
+.artigo_termos a:hover{
+  text-decoration: underline;
+}
+#hero6{
+  background-image: url('imagem/fundo_t.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#hero6 h1{
+  text-align: center;
+  padding: 30px 10px;
+}
+#hero6 h2{
+padding-bottom: 20px;
+}
+#hero6 h3{
+  padding-bottom: 20px;
 }
 @media (max-width: 700px) {
   nav > a {
