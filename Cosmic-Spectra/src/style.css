@@ -437,6 +437,19 @@ padding-bottom: 20px;
 #hero6 h3{
   padding-bottom: 20px;
 }
+#hero6 ul{
+  font-size: 1.1em;
+}
+#hero6 li{
+  padding-bottom: 10px;
+}
+#hero6 a{
+  text-decoration: none;
+  color: var(--cor4);
+}
+#hero6 a:hover{
+  text-decoration: underline;
+}
 @media (max-width: 700px) {
   nav > a {
     padding: 3px;
