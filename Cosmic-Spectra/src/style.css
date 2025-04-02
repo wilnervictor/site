@@ -450,6 +450,23 @@ padding-bottom: 20px;
 #hero6 a:hover{
   text-decoration: underline;
 }
+td,th{
+  border: 1px solid black;
+  padding: 5px;
+}
+th{
+  background-color: gray;
+  color: white;
+}
+tfoot td{
+  background-color: gray;
+  color: white;
+}
+table{
+  border-collapse: collapse;
+  margin: 15px;
+
+}
 @media (max-width: 700px) {
   nav > a {
     padding: 3px;
