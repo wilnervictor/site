@@ -41,7 +41,7 @@ nav {
 }
 #botao1 {
   border-radius: 8px;
-  margin-right: 10px;
+  margin-right: 8px;
   padding: 3px;
   width: 30px;
 }
@@ -94,6 +94,7 @@ abbr {
 }
 .hero {
   background-image: url(imagem/2img1280.jpg);
+  background-color: #0d0d0d;
   background-size: cover;
   background-position: center;
   height: 300px;
@@ -271,6 +272,7 @@ footer div {
 }
 .hero1 {
   background-image: url(imagem/nebulosa\ do\ coraçao.jpg);
+  background-color: #0d0d0d;
   background-size: cover;
   background-position: center;
   height: 300px;
@@ -357,6 +359,7 @@ footer div {
 }
 .hero2 {
   background-image: url(imagem/pilares1880.jpg);
+  background-color: #0d0d0d;
   background-size: cover;
   background-position: center;
   height: 300px;
@@ -418,6 +421,7 @@ footer div {
 }
 #hero6{
   background-image: url('imagem/fundo_t.jpg');
+  background-color: #0d0d0d;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -467,9 +471,18 @@ table{
   margin: 15px;
 
 }
+tbody tr:nth-child(2n){
+  background-color: rgba(128, 128, 128, 0.452);
+}
+caption{
+  background-color: rgba(128, 128, 128, 0.192);
+  padding: 5px;
+  font-variant: small-caps;
+  font-size: 1.5em;
+}
 @media (max-width: 700px) {
   nav > a {
-    padding: 3px;
+    padding: 2px;
   }
   nav > img {
     margin-left: 0px;
@@ -649,5 +662,13 @@ table{
   .artigo_vialactea img{
     margin-left: 5px;
     width: 300px;
+  }
+}
+@media (max-width: 700px) {
+  nav > a {
+    padding: 1px;
+  }
+  #text1{
+    width: 140px;
   }
 }
